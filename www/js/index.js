@@ -43,7 +43,7 @@ function onDeviceReady() {
   function ajaxCall()
   {
     $.ajax({
-       url:"http://54.174.95.66/fetch.php",
+       url:"https://206.189.33.172/fetch.php",
        dataType: 'jsonp', // Notice! JSONP <-- P (lowercase)
        success:function(json){
          // do stuff with json (in this case an array)
@@ -77,7 +77,7 @@ function onDeviceReady() {
   function ajaxOnCall()
   {
     $.ajax({
-       url:"http://54.174.95.66/irrigateon.php",
+       url:"https://206.189.33.172/irrigateon.php",
        dataType: 'jsonp', // Notice! JSONP <-- P (lowercase)
        success:function(json){
          // do stuff with json (in this case an array)
@@ -100,7 +100,7 @@ function onDeviceReady() {
   function ajaxOffCall()
   {
     $.ajax({
-       url:"http://54.174.95.66/irrigateoff.php",
+       url:"https://206.189.33.172/irrigateoff.php",
        dataType: 'jsonp', // Notice! JSONP <-- P (lowercase)
        success:function(json){
          // do stuff with json (in this case an array)
